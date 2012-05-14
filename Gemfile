@@ -7,6 +7,15 @@ gem 'rails', '3.2.2'
 
 gem 'mysql2'
 
+group :development, :test do
+  gem 'cucumber-rails'
+  gem 'rspec-rails'  
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'capybara'
+  
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -15,7 +24,8 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer'
+  gem 'therubyracer'
+  gem 'execjs'
 
   gem 'uglifier', '>= 1.0.3'
 end
