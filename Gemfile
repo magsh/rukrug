@@ -6,6 +6,7 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'i2p'
 
 group :development, :test do
   gem 'cucumber-rails'
@@ -13,8 +14,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'capybara'
-  
 end
+
 
 
 # Gems used only for assets and not required
